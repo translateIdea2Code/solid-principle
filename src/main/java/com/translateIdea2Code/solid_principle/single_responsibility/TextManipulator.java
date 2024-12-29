@@ -13,6 +13,13 @@ public class TextManipulator {
         this.text = text;
     }
 
+    public static void main(String[] args) {
+        TextManipulator textManipulator = new TextManipulator("Hello World");
+        textManipulator.printText();
+
+
+    }
+
     public String getText() {
         return text;
     }
@@ -30,27 +37,20 @@ public class TextManipulator {
     }
 
     public String findWordAndReplace(String word, String replacement) {
-        if(this.text.contains(word)){
-            this.text = this.text.replace(word,replacement);
+        if (this.text.contains(word)) {
+            this.text = this.text.replace(word, replacement);
         }
         return text;
     }
 
     public String findWordAndDelete(String word) {
-        if(this.text.contains(word)){
-            this.text = this.text.replace(word,"");
+        if (this.text.contains(word)) {
+            this.text = this.text.replace(word, "");
         }
         return text;
     }
 
     public void printText() {
         System.out.println(this.text);
-    }
-
-    public static void main(String[] args) {
-        TextManipulator textManipulator = new TextManipulator("Hello World");
-        textManipulator.printText();
-
-
     }
 }

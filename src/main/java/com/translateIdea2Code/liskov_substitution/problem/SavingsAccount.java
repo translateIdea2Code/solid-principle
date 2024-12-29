@@ -1,4 +1,5 @@
 package com.translateIdea2Code.liskov_substitution.problem;
+
 /**
  * Open Closed Principle is Used very nicely here
  */

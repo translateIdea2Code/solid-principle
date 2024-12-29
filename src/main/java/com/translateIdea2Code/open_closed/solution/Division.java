@@ -1,6 +1,6 @@
 package com.translateIdea2Code.open_closed.solution;
 
-public class Division implements CalculatorOperation{
+public class Division implements CalculatorOperation {
 
     private double first;
     private double second;

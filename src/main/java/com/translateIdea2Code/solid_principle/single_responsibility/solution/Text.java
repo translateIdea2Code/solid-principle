@@ -1,8 +1,5 @@
 package com.translateIdea2Code.solid_principle.single_responsibility.solution;
 
-import lombok.Data;
-import lombok.Getter;
-
 public class Text {
     private String text;
 

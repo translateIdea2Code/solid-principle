@@ -1,6 +1,6 @@
 package com.translateIdea2Code.open_closed.problem;
 
-public class Addition implements CalculatorOperation{
+public class Addition implements CalculatorOperation {
 
     private double firstNumber;
     private double secondNumber;

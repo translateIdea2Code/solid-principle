@@ -1,6 +1,6 @@
 package com.translateIdea2Code.liskov_substitution.solution;
 
-public class CurrentAccount implements WithDrawableAccount{
+public class CurrentAccount implements WithDrawableAccount {
 
     @Override
     public boolean withdraw(double amount) {

@@ -8,7 +8,5 @@ public class BankingAppWithdrawalService {
         withDrawableAccount.withdraw(500);
 
 
-
-
     }
 }

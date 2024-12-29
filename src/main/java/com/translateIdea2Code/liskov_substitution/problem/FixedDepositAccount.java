@@ -1,6 +1,6 @@
 package com.translateIdea2Code.liskov_substitution.problem;
 
-public class FixedDepositAccount implements Account{
+public class FixedDepositAccount implements Account {
 
     /**
      * Problem is here you cannot withdraw amount from FixedDeposit in Freeze or lock period

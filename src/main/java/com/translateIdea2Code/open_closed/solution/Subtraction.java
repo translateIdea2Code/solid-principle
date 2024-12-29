@@ -1,6 +1,6 @@
 package com.translateIdea2Code.open_closed.solution;
 
-public class Subtraction implements CalculatorOperation{
+public class Subtraction implements CalculatorOperation {
 
     private double first;
     private double second;
